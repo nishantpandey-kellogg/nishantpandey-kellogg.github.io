@@ -8,3 +8,17 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1 {
+  color:red;
+  font-style:italic;
+  text-decoration: underline;
+}
+h4 {
+  color:purple;
+}
+#summary {
+  color:#88b832;
+  }
+#profilepic {
+  width:10px;
+}
