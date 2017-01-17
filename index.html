@@ -1,33 +1,90 @@
 <!DOCTYPE html>
+<!--Assignment #1 by Nishant Pandey. Due 1/17/2017-->
 <html>
 <head>
-  <title>Bootstrap Me</title>
+  <title>Practitioner Circle</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <h1>I'm on the left</h1>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><strong>Practitioner Circle</a>
       </div>
-      <div class="col-sm-4">
-        <h1>I'm in Middle</h1>
-      </div>
-      <div class="col-sm-4">
-        <h1>I'm on the right</h1>
-      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Service Catalogue</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+ </nav>
+ <div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="Image-001.jpg" alt="Certification 1">
+      </a>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <h1>I'm on the left</h1>
-      </div>
-      <div class="col-sm-6">
-        <h1>I'm on the right</h1>
-      </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="Image-002.jpg" alt="Certification 2">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="Image-003.jpg" alt="Certification 3">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="Image-004.jpg" alt="Certification 4">
+      </a>
     </div>
   </div>
-</body>
+  <div class="jumbotron">
+    <h2>Your Partner in Thought Leadership & Career Acceleration</h2>
+    <h4>We offer training, seminars and certification coaching in the fields of Business Analysis, Software Testing, Project, Program & Portfolio Management and Test Management.
+    </h4>
+    <h3 class="text-left"><a href="#" class="btn btn-primary">Learn More</a></h3>
+  </div>
+  <div class="jumbotron">
+    <h1>Buy a Galaxy S7 edge and get a free Gear Fit2*</h1>
+    <h3 class="text-center"><a href="#" class="btn btn-primary">Learn More</a></h3>
+  </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Your Partner in Thought Leadership & Career Acceleration</h1>
+      </div>
+      <div class="col-sm-12">
+        <h4>Accelerating careers since 2014</h4>
+      </div>
+     <div class="col-sm-3">
+        <h3>Portfolio Management</h3>
+     </div>
+     <div class="col-sm-3">
+        <h3>Program Management</h3>
+     </div>
+     <div class="col-sm-3">
+        <h3>Business Analysis</h3>
+     </div>
+     <div class="col-sm-3">
+        <h3>Test Management</h3>
+     </div>
+   </div>
+  </body>
 </html>
