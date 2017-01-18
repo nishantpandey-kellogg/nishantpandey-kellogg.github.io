@@ -1,0 +1,42 @@
+.jumbotron-first {
+  position: relative;
+  background-image: url("Image-011.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.jumbotron-second {
+  position: relative;
+  background-image: url("Image-012.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.img-circular{
+ width: 230px;
+ height: 230px;
+ background-image: url("Image-014.jpg");
+ background-size: cover;
+ display: block;
+ border-top-left-radius: 150px;
+ -webkit-border-top-left-radius: 150px;
+ -moz-border-top-left-radius: 150px;
+ border-bottom-right-radius: 150px;
+ -webkit-border-bottom-right-radius: 150px;
+ -moz-border-bottom-right-radius: 150px;
+ }
+ h6 {
+   color:brown;
+   text-align: left;
+ }
+ #banner {
+    background-color: yellow;
+}
+.btn-primary {
+	background: #FF5733;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
